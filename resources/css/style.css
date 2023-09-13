@@ -1,6 +1,10 @@
+
+/*Start Head sector */
+
 .header {
     display: flex;
     top:64px;
+    background-color: aqua;
 }
 
 .header h1 {
@@ -23,8 +27,34 @@
 .header li {
     margin-left:20px;
     font-size: 16px;
+    
 }
 
 a {
     text-decoration:none;
+    color:gray;
 }
+
+/*Start Main sector */
+
+.main {
+    background-color: pink;
+    display: flex;
+    
+}
+
+
+.claim {
+    
+
+}
+
+.immagine {
+    background-image: url(../images/banner.jpg);
+    width:500px;
+}
+
+.claim h1 h2 {
+    color:black;
+}
+
