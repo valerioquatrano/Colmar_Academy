@@ -1,10 +1,14 @@
 
+body {
+    background-color: white;
+}
+
 /*Start Head sector */
 
 .header {
     display: flex;
     top:64px;
-    background-color: aqua;
+    
 }
 
 .header h1 {
@@ -38,23 +42,46 @@ a {
 /*Start Main sector */
 
 .main {
-    background-color: pink;
-    display: flex;
+    background-color: rgb(197, 191, 191);
+    display:flex;
+   
+
+}
+
+.mainright img{
+    padding: 32px 24px 32px 24px;
+    max-width: 90%;
     
 }
 
-
-.claim {
+.mainleft {
     
-
+    display:block;
+    text-align: center;
+    align-items:center;
+    margin:auto;
 }
 
-.immagine {
-    background-image: url(../images/banner.jpg);
-    width:500px;
-}
 
-.claim h1 h2 {
+.mainleft h1 {
     color:black;
+    font-size: 54px;
 }
 
+
+.mainleft h2 {
+    color:black;
+    font-size: 30px;
+}
+
+.mainleft button {
+    background-color: black;
+    color:white;
+    border:none;
+    margin-bottom:12px;
+    font-size: 30px;
+    width: 50%;
+}
+
+
+/*Start Second Main sector */
