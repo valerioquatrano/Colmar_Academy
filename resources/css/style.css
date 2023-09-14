@@ -1,6 +1,7 @@
 
 body {
     background-color: white;
+    font-family: verdana;
 }
 
 /*Start Head sector */
@@ -8,12 +9,16 @@ body {
 .header {
     display: flex;
     top:64px;
-    
+    justify-content: space-between;
+}
+
+.logo{
+    display:flex;
+    width:100%;
 }
 
 .header h1 {
     font-size: 32px;
-    width: 100%;
 }
 
 .header img {
@@ -24,14 +29,14 @@ body {
     list-style-type: none;
     display:flex;
     padding-top: 15px;
-    margin-left: 340px;
-    min-width: 400px;
+    width:100%;
+    justify-content: flex-end;
+    padding-right:5%;
 }
 
 .header li {
     margin-left:20px;
     font-size: 16px;
-    
 }
 
 a {
@@ -42,46 +47,95 @@ a {
 /*Start Main sector */
 
 .main {
-    background-color: rgb(197, 191, 191);
+    background-color: rgb(229, 222, 222);
     display:flex;
-   
-
+    align-items: center;   
 }
 
-.mainright img{
+.mainleft{
+    
     padding: 32px 24px 32px 24px;
-    max-width: 90%;
-    
 }
 
-.mainleft {
-    
-    display:block;
-    text-align: center;
-    align-items:center;
+.mainleft img{
+    width:100%;
+}
+.mainright {
+    text-align: left;
     margin:auto;
+    width:40%;
+}
+
+.mainright h1 {
+    color:rgb(74, 70, 70);
+    font-size: 44px;
 }
 
 
-.mainleft h1 {
-    color:black;
-    font-size: 54px;
+.mainright h2 {
+    color:rgb(74, 70, 70);
+    font-size: 25px;
+    margin-bottom: 25px;
 }
 
-
-.mainleft h2 {
-    color:black;
-    font-size: 30px;
-}
-
-.mainleft button {
-    background-color: black;
+.mainright button {
+    background-color: rgb(85, 82, 82);
     color:white;
     border:none;
-    margin-bottom:12px;
     font-size: 30px;
-    width: 50%;
+    text-align:center;
+    width: 80%;
+    padding: 10px 0;
+    font-family: arial, sans-serif;
+    margin-top:25px;
 }
 
-
 /*Start Second Main sector */
+
+.second_main{ 
+    display: flex;
+}
+
+.second_main_left{
+    width:65%;
+    margin: 32px 24px 32px 24px;
+}
+
+.second_main_left img{
+    width: 100%;
+    display: flexi;
+    flex-direction: column;
+}
+
+.second_main_right {
+    text-align: left;
+    margin-left: 24px;
+    width:40%;
+    margin: 32px 24px 32px 24px;
+}
+
+.img-right {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.img-right img{
+    width:55%;
+    height:auto;
+}
+
+.img-right-right {
+    margin-left: 20px;
+    width:100%;
+    margin-bottom:15px;
+}
+
+.img-right-right h3 {
+    color:black;
+}
+
+.img-right-right a {
+    color:rgb(69, 110, 186);
+}
+
+/*Start Third Main sector */
