@@ -48,8 +48,7 @@ a {
 
 .main {
     background-color: rgb(229, 222, 222);
-    display:flex;
-    align-items: center;   
+    display:flex;       
 }
 
 .mainleft{
@@ -99,6 +98,7 @@ a {
 .second_main_left{
     width:65%;
     margin: 32px 24px 32px 24px;
+    max-height:400px;
 }
 
 .second_main_left img{
@@ -139,3 +139,30 @@ a {
 }
 
 /*Start Third Main sector */
+
+.third_main {
+    background-color: rgb(229, 226, 226);
+    margin: 32px 24px;
+}
+
+.third_main h2 {
+    font-size: 45px;
+    color: rgb(199, 194, 194);
+    padding:32px 0;
+    text-align: center;
+}
+
+.third_main_bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.third_main_inside {
+    background-color: rgb(239, 236, 236);
+    margin:20px;
+    
+}
+
+.third_main_inside h3 {
+    font-size: 22px;
+}
